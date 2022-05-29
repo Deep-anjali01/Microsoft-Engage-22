@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/08b3fea50a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/signin.css">
+
+    <title>Sign in Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand"><img src="/Image/vault.png" id="logo"></a>
+
+            <li><a class="navbar-link" href="register">Register</a></li>
+
+
+        </nav>
+    </header>
+<!-- This has background image -->
+    <div class="bg" id="bgimg">
+        <img src="/Image/wallpapersden.jpg" id="img1">
+        <img src="" id="img2">
+        <img src="" id="img6">
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="Sign-in-form">
+            <div style="position: relative; left: 35px;bottom:30px; ">
+                <div class="title">Sign in</div>
+                <!-- This will take the details for verifying the user which user entered during registration Process  -->
+                <form action="signin" method="post">
+                    <div class="input-boxes">
+
+                        <div class="input-box">
+                            <div class="input-box" id="inputname">
+                                <i class="fa-solid fa-user" id="img7"></i>
+                                <input type="text" style="padding: 9px;background:#f4f4f4;
+                        color: black;width: 220%;font-weight:700;font-size:small;border:0px;outline-width: none; "
+                                    placeholder="Name"  id="name" name="name" required>
+                            </div>
+
+                            <div class="input-box" id="p_no">
+                                <i class="fas solid fa-phone" id="img4"></i>
+                                <input type="tel"
+                                    style="padding: 9px;background:#f4f4f4;color: black;width:60%;font-weight:700;font-size:small;border:0px;outline-width: none;"
+                                    name="Phone_no"  id="Phone_no" placeholder=" Phone no." required>
+
+                            </div>
+
+                            <div class="input-box pass">
+                                <i class="fa-solid fa-lock" id="img9"></i>
+                                <input type="password" inputmode="numeric" style="padding: 9px;background:#f4f4f4;
+                        color: black;width:98%;font-weight:700;font-size:small;border:0px;outline-width: none; "
+                                    placeholder=" Password" name="password" required>
+                            </div>
+
+                            <div class="input-box" id="img">
+                                <i class="fa-solid fa-images" id="img5"></i>
+                                <input type="file" id="image" name="image" value="" required>
+
+                            </div>
+                            <input type="submit" id="signin">
+                            <div class="text"><a class="Not-Registered" href="register">Not Registered?</a></div>
+                        </div>
+                </form>
+            </div>
+
+        </div>
+
+        <script src="/JS/face-api.min.js"></script>
+        <script src="/JS/script.js"></script>
+
+
+</body>
+
+</html>

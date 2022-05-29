@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/register.css">
+    <script src="https://kit.fontawesome.com/08b3fea50a.js" crossorigin="anonymous"></script>
+    <title>Register Page</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand"><img src="/Image/vault.png" id="logo"></a>
+
+        <a class="navbar-link" href="signin">Sign in</a>
+
+    </nav>
+<!-- This has the background image -->
+    <div class="bg" id="bgimg">
+        <img src="/Image/wallpapersden.jpg" id="img1">
+        <img src="" id="img2">
+        <img src="" id="img6">
+    </div>
+
+    <div class="container">
+
+        <div class="Sign in-form">
+            <div style="position: relative; bottom:30px">
+                <div class="title">Register</div>
+
+                <!-- Form taking required basic details of the user -->
+                <form action="register" method="post">
+                    <div class="input-boxes">
+                        <in class="input-box" id="name">
+                            <i class="fa-solid fa-user" id="img7"></i>
+                            <input type="text" style="padding: 9px;background:#f4f4f4;
+                    color: black;width: 220%;font-weight:700;font-size:small;border:0px;outline-width: none; "
+                                placeholder="Name" name="name">
+                    </div>
+
+                    <div class="input-box" id="mail_id">
+                        <i class="fa-solid fa-at" id="img8"></i>
+                        <label for="email"></label>
+                        <input type="email" style="padding: 9px;background:#f4f4f4;
+                    color: black;width:220%;font-weight:700;font-size:small;border:0px;outline-width: none; "
+                            placeholder=" email" name="email">
+                    </div>
+
+                    <div class="input-box" id="p_no">
+                        <i class="fa-solid fa-phone" id="img4"></i>
+                        <input type="tel" style="padding: 9px;background:#f4f4f4;
+                        color: black;width:60%;font-weight:700;font-size:small;border:0px;outline-width: none; "
+                            name="phone_no" placeholder=" Phone no.">
+                    </div>
+
+                    <div class="input-box pass">
+                        <i class="fa-solid fa-lock" id="img9"></i>
+                        <input type="password" inputmode="numeric" style="padding: 9px;background:#f4f4f4;
+                        color: black;width:98%;font-weight:700;font-size:small;border:0px;outline-width: none; "
+                            placeholder=" Password" name="password">
+                    </div>
+                    <div class="input-box pass">
+                        <i class="fa-solid fa-lock" id="img10"></i>
+                        <input type="password" inputmode="numeric"
+                            style="padding: 9px;background:#f4f4f4;
+                         color: black;width:98%;font-weight:700;font-size:small;border:0px;outline-width: none; position:relative;top:50px"
+                            placeholder=" Confirm Password" name="confirm_password">
+                    </div>
+       
+            <!-- Submitting the required information and redirecting to upload image page -->
+  
+                <input type="submit" onclick='()=>{window.location.href = "http://localhost:5000/imagens1"}'
+                    id="Submit">
+                <div class="text"><a class="Already-Registered" href="signin">Already Registered?</a></div>
+            
+        </div>
+        </form>
+</body>
+
+<script src="/controller/register.js"></script>
+
+</html>

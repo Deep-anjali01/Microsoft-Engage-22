@@ -1,0 +1,46 @@
+body {
+    background-color: #040D13;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: #040D13;
+      font-size: 90%;
+    }
+    .container {
+        vertical-align: middle;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+      }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #040D13;
+      font-size: 90%;
+    }
+    .container {
+        vertical-align: middle;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+      }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+
+  h1, h2, h3{
+      color: #f4f4f4;
+  }
+
+  

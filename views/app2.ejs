@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/app.css">
+    <script src="https://kit.fontawesome.com/08b3fea50a.js" crossorigin="anonymous"></script>
+    <title>Image Uploading</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <a class="navbar-brand"><img src="Image/vault.png" id="logo"></a>
+    </nav>
+
+    <div class="bg" id="bgimg">
+
+    </div>
+
+    <div class="container">
+
+        <h1>Upload 2/2 Your Photo </h1>
+        <script>alert("Upload your 2nd clear face image to complete the registration")</script>
+        <div>
+            <form action="/imagens2" method="POST" enctype="multipart/form-data">
+                <div class="input box" id="Name">
+                    <i class="fa-solid fa-user" id="img7"></i>
+                    <input type="text" style="padding: 9px;background:#f4f4f4;
+                color: black;width:60%;font-weight:700;font-size:small;border:0px;outline-width: none; " id="name"
+                        placeholder="Name" name="name" required>
+                </div>
+                <div class="input box" id="p_no">
+                    <i class="fa-solid fa-phone" id="img4"></i>
+                    <input type="tel" style="padding: 9px;background:#f4f4f4;
+                color: black;width:60%;font-weight:700;font-size:small;border:0px;outline-width: none; " id="desc"
+                        name="pesc" placeholder="Phone No." required>
+
+                </div>
+                <div class="input-box" id="img">
+                    <i class="fa-solid fa-images" id="img5"></i>
+                    <input type="file" id="image" name="image" value="" required>
+
+                </div>
+
+                <div>
+                    <button type="submit" id="Submit" onclick="">Submit</button>
+                </div>
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+
+
+</html>
