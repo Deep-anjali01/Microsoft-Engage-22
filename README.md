@@ -39,10 +39,6 @@ After successful Registration and Sign in user will be able to access the web ap
 
 ![image](https://user-images.githubusercontent.com/82435523/170882612-f0a7eca0-3d7d-44e4-9d44-b3be672477d9.png)
 
-**Sign Up Page**
-
-![image](https://user-images.githubusercontent.com/82435523/170882660-c2a0c97d-51b7-458c-8543-3a20ead4a603.png)
-
 **Upload Image 1**
 
 ![image](https://user-images.githubusercontent.com/82435523/170882784-9723287c-6f60-4748-9d50-31a39043b40d.png)
@@ -51,6 +47,9 @@ After successful Registration and Sign in user will be able to access the web ap
 
 ![image](https://user-images.githubusercontent.com/82435523/170882823-9163720a-fa69-4471-b61d-37fec4a3657b.png)
 
+**Sign Up Page**
+
+![image](https://user-images.githubusercontent.com/82435523/170882660-c2a0c97d-51b7-458c-8543-3a20ead4a603.png)
 
 **VAULT APP**
 
