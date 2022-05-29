@@ -113,7 +113,16 @@ For Configuration of AWS s3 bucket
 ```bash
   npm i aws-sdk
 ```  
+Start the server
 
+```bash
+  nodemon app.js
+```
+or
+
+```bash
+  node app.js
+```
 
 
 
