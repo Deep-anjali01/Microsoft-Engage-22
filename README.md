@@ -106,7 +106,7 @@ Install the  required packages by-
 
 For Configuration of AWS s3 bucket
 
-- uncheck block all public acess
+- uncheck block all public access
 - enable Access control list (ACL) 
 - config CORS json file for get request
 
