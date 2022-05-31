@@ -76,12 +76,12 @@ cd Microsoft-Engage-22
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`PORT = `                                                              
+`PORT = 5000 `                                                              
 `MONGODB = mongodb+srv://<username>:<password>@cluster0.<yours>.mongodb.net/users?retryWrites=true&w=majority`
 
-`AWS_ACCESS_KEY_ID= `                                    
-`AWS_ACCESS_KEY_SECRET= `                              
-`AWS_BUCKET_NAME=`
+`AWS_ACCESS_KEY_ID= <Your_AWS_console_id> `                                    
+`AWS_ACCESS_KEY_SECRET= <Your_Key>`                              
+`AWS_BUCKET_NAME= <Your_Created_Bucket_Name> `
 
 ## Installation
 
